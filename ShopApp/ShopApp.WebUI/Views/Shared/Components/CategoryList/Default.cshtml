@@ -1,0 +1,17 @@
+﻿@model CategoryListViewModel
+
+
+<div class="list-group">
+
+    @foreach (var item in Model.Categories)
+    {
+        <a
+            asp-controller="Shop"
+            asp-action="List"
+            asp-route-category="@item.Name.ToLower()"
+            class="list-group-item list-group-item-action @(Model.SelectedCategory==item.Name.ToLower()?"active":"")">@*Eğer telefon bilgisayar veya elektroniği seçersek seçili olcak hiç birini seçmezsek seçili gözükmeyecek*@
+            @item.Name
+        </a>
+    }
+
+</div>

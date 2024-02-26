@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hqMdzDAygZfRye0KEdc4He/HDu9UnVdh1aVwv4df8jB1rgGqOZhb/9WgMgYa6+21/OCQG368+Ayp3H849gxmnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Masaüstü\\C#\\SHOPAPPP\\ShopApp\\ShopApp.Entities\\ShopApp.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
